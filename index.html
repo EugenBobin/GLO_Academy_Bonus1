@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>форма входа и регистрации</title>
+	<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+</head>
+<body>
+
+    <div id="login">
+        <form action="javascript:void(0);" method="get">
+            <fieldset class="clearfix">
+                <div class="row">
+                    <span class="form-text">Имя, Фамилия пользователя</span>
+                    <input class="input user-name" type="text" value="">
+                </div>
+                <div class="row">
+                    <span class="form-text">Логин</span>
+                    <input class="input user-login" type="text" value="">
+                </div>
+                <div class="row">
+                    <span class="form-text">Пароль</span>
+                    <input class="input user-password" type="password"  value="">
+                </div>
+                <div>
+                    <input class="button log-button" type="submit" value="ВОЙТИ">
+                </div>
+                <div>
+                    <input class="button reg-button" type="submit" value="ЗАРЕГИСТРИРОВАТЬ">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <p class="list-header">Имя, Фамилия пользователя; логин; пароль; дата создания записи</p>
+    </div>
+    <div class="users-block">
+        <ul class="users-list">
+            <li class="user-data"></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
